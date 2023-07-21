@@ -1,0 +1,164 @@
+.corgeral{
+    background-color: #EFEFE6;
+}
+
+.nav{
+    background-color: #5A6A20;
+    padding: 10px;
+}
+
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.espaco{
+    margin: 30px;
+}
+.centro {
+    display: flex; /* flexbox para centralizar o conteúdo */
+    justify-content: center; /* centraliza horizontalmente */
+    align-items: center; /* centraliza verticalmente */
+    background-color: #1D4E7A;
+  }
+
+.cordefundo{
+    background-color: #6B584F;
+}
+.texto{
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.justify{
+    text-align: justify;
+}
+
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-30{
+    padding: 30px;
+}
+
+/* classe para deixar a imagem redonda */
+.br-50{
+    border-radius: 50%;
+}
+
+/* para alterar o tamanho da imagem */
+.wh-300{
+    width: 300px;
+    height: 400px;
+
+}
+
+.padding{
+    padding: 20px;
+}
+
+/* QUIZ */
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .quiz-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #ddd;
+  }
+  
+  .question {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .options button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    cursor: pointer;
+  }
+  
+  .options button:hover {
+    background-color: #ddd;
+  }
+  
+  .result {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  #nextBtn {
+    margin-top: 20px;
+  }
+  
+
+.tm-social{
+    width: 50px;
+    height: 50px;
+}
+
+.footer {
+    background-color:  #5A6A20;
+    color: black;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+    
+}
+
+.tm-social{
+    width: 50px;
+    height: 50px;
+
+}
+
+.mb-50{
+    margin-bottom: 10px;
+}
+
+/* responsividade */
+
+/* tablet */
+@media(max-width: 768px){
+    header{
+        margin-bottom: 70px;
+        height: 1px;
+    }
+}
+
+/* celular */
+
+@media(max-width: 468px){
+    .p-30{
+        padding: 10px;
+    }
+    .wh-300{
+    width: 200px;
+    height: 300px;
+    }
+    iframe{
+        width: 400px;
+        height: 200px;
+    }
+    }
+
+
+
